@@ -169,7 +169,7 @@ body.dark .sidebar__ li a:hover .text{
 }
 
 .toggle__switch .switch{
-    position: relative;
+    position: absolute;
     height: 22px;
     width: 44px;
     border-radius: 25px;
