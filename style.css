@@ -31,8 +31,10 @@ body.dark{
 
 
 .header__{
+    position: relative;
+    display: flex;
     height: 50px;
-    background: var(--header-color);
+    background: var(--sidebar-color);
 }
 
 
@@ -152,36 +154,9 @@ body.dark .sidebar__ li a:hover .text{
     justify-content: space-between;
 }
 
-.menu__bar .mode{
-    position: relative;
-    border-radius: 6px;
-    background: var(--primary-light-color);
-}
 
-.menu__bar .mode .moon__sun{
-    height: 50px;
-    width: 60px;
-    display: flex;
-    align-items: center;
-}
 
-.menu__bar .mode i{
-    position: absolute;
-}
-
-.menu__bar .mode i.sun{
-    opacity: 0;
-}
-
-body.dark .menu__bar .mode i.sun{
-    opacity: 1;
-}
-
-body.dark .menu__bar .mode i.moon{
-    opacity: 0;
-}
-
-.menu__bar .mode .toggle__switch{
+.toggle__switch{
     position: absolute;
     right: 0;
     height: 100%;
@@ -191,7 +166,6 @@ body.dark .menu__bar .mode i.moon{
     justify-content: center;
     cursor: pointer;
     border-radius: 10px;
-    background: var(--primary-light-color);
 }
 
 .toggle__switch .switch{
